@@ -1,17 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Homemade+Apple:100,200,300,400,500,600,700');
 
 /* --------------------------------------------- Banner and Nav */
 
 .banner-image {
     background-image: url('../images/canary-shot.jpg');
-
     min-height: 150px;
-
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
 }
 
+.title-box {
+    position: fixed;
+    display: inline-block;
+    top: 90px;
+    left: 20px;
+    font-family: 'Homemade Apple', cursive;
+    background-color: transparent;
+    color: #131a21;
+    font-size: 102px;
+    z-index: 1;
+}
+
+.book-now {
+    display: inline-block;
+}
 
 #nav {
     margin: 0;
