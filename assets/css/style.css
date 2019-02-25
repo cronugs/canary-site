@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/* --------------------------------------------- Banner and Nav */
+
+.banner-image {
+    background-image: url('../images/canary-shot.jpg');
+
+    min-height: 150px;
+
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+    height: 60px;
+}
+
+.menuitem {
+    height: 60px;
+    text-align: center;
+    padding: 0;
+    background-color: orange;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fafafa;
+    height: 60px;
+}
+
+.menuitem a i {
+    padding-top: 10px;
+    display: block;
+    color: #fafafa;
+    font-size: 15px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/* --------------------------------------------- Hover.css */
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.35);
+    height: 60px;
+
+}
+
+
+/* --------------------------------------------- Footer */
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+}
+
+.footer-social-glyphs {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.inline-block p a i {
+    color: #fafafa;
+}
+
+#footer-details {
+    background-color: #435c78;
+    padding-bottom: 25px;
+
+}
+
+/* --------------------------------------------- Content Section */
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.news-feed {
+    margin: 0;
+}
+
+.news-block {
+    margin: 5px 5px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #f9f8f3;
+}
+
+/* --------------------------------------------- Media Queries */
+
+@media(min-width:767px) {
+    .banner-image {
+        min-height: 250px;
+    }
+
+    .footer-social-glyphs {
+        text-align: center;
+        font-size: 35px;
+        padding-top: 35px;
+    }
+
+    #nav li {
+        height: 120px;
+    }
+
+    .hvr-sweep-to-bottom:before {
+        background: rgba(0, 0, 0, 0.35);
+        height: 120px;
+
+    }
+}
+
+@media (min-width:767px) and (max-width:991px) {
+    .footer-social-glyphs {
+        text-align: center;
+        font-size: 35px;
+        padding-top: 35px;
+    }
+
+    #nav li {
+        height: 80px;
+    }
+
+    .hvr-sweep-to-bottom:before {
+        background: rgba(0, 0, 0, 0.35);
+        height: 80px;
+
+    }
+}
+
+@media(min-width:992px) {
+    .banner-image {
+        min-height: 350px;
+    }
+
+    .menuitem a i {
+        padding-top: 35px;
+
+        font-size: 22px;
+    }
+}
