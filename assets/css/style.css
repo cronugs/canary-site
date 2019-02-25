@@ -2,15 +2,25 @@
 
 /* --------------------------------------------- Banner and Nav */
 
-.banner-image {
-    background-image: url('../images/canary-shot.jpg');
-    min-height: 150px;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
+.banner-div {
+    position: relative
 }
 
-.title-box {
+
+.banner-image {
+    background-image: url('../images/nogriff.jpg');
+    /*    min-height: 150px; */
+    height: 495px;
+    position: absolute;
+    top: -70px;
+    left: 0;
+    background-repeat: no-repeat;
+    /*    background-position: top left; */
+    background-size: cover;
+    overflow: visible;
+}
+
+/* .title-box {
     position: fixed;
     display: inline-block;
     top: 90px;
@@ -20,10 +30,10 @@
     color: #131a21;
     font-size: 102px;
     z-index: 1;
-}
+} */
 
-.book-now {
-    display: inline-block;
+.nav-row {
+    margin-top: 150px;
 }
 
 #nav {
@@ -39,7 +49,7 @@
     height: 60px;
     text-align: center;
     padding: 0;
-    background-color: orange;
+    background-color: transparent;
 }
 
 .menuitem a {
@@ -61,20 +71,46 @@
     width: 100%;
     padding-top: 5px;
     text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
+/*    text-transform: uppercase; */
     font-weight: 300;
     letter-spacing: 2px;
 }
 
+.ui-menu-color-news a span {
+    color: #131d1f;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.ui-menu-color-gigs a span {
+    color: #c3c0b1;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.ui-menu-color-media a span {
+    color: #131d1f;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.ui-menu-color-availability a span {
+    color: #c3c0b1;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+}
+
 /* --------------------------------------------- Hover.css */
 
-.hvr-sweep-to-bottom:before {
+/*.hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.35);
     height: 60px;
 
-}
-
+} */
 
 /* --------------------------------------------- Footer */
 
@@ -112,12 +148,12 @@
 }
 
 .scrollable {
-    overflow-y: hidden;    
+    overflow-y: hidden;
 }
 
 .news-feed {
     margin: 0;
-    background-color: orange;
+    background-color: #f19620;
 }
 
 .news-block {
@@ -175,8 +211,47 @@
     }
 
     .menuitem a i {
-        padding-top: 35px;
+        padding-top: 45px;
 
         font-size: 22px;
+    }
+
+    #nav li {
+        height: 50px;
+        margin-top: 70px;
+    }
+
+
+
+    .banner-image {
+        top: -110px;
+    }
+
+    .ui-menu-color-news a span {
+        color: #131d1f;
+        font-weight: bold;
+        font-size: 25px;
+        font-style: italic;
+    }
+
+    .ui-menu-color-gigs a span {
+        color: #c3c0b1;
+        font-weight: bold;
+        font-size: 25px;
+        font-style: italic;
+    }
+
+    .ui-menu-color-media a span {
+        color: #131d1f;
+        font-weight: bold;
+        font-size: 25px;
+        font-style: italic;
+    }
+
+    .ui-menu-color-availability a span {
+        color: #c3c0b1;
+        font-weight: bold;
+        font-size: 25px;
+        font-style: italic;
     }
 }
